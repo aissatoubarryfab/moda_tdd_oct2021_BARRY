@@ -1,3 +1,9 @@
 public class verif {
-    int a,b;
+    String a;
+public verif(String b){
+    this.a=b;
+}
+    public String getA() {
+        return "bonjour";
+    }
 }
