@@ -13,11 +13,11 @@ public class Dictionary {
         return true;
     }
     public String getTranslation(String s){
-        return "against";
+        return "Bonjour";
     }
 
     public String addTranslation(String T1,String T2) {
-        return "against";
+        return "Bonjour";
     }
 
 }
