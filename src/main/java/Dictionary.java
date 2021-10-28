@@ -1,6 +1,6 @@
-public class verif {
+public class Dictionary {
     String a;
-public verif(String b){
+public Dictionary(String b){
     this.a=b;
 }
     public String getA() {
