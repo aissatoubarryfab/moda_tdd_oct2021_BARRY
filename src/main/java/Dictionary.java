@@ -1,6 +1,11 @@
+import java.util.*;
+
 public class Dictionary {
 
     private String name;
+
+    private Map<String, String> translations;
+
     public Dictionary(String n) {
         this.name = n;
     }
@@ -12,12 +17,13 @@ public class Dictionary {
     public boolean IsEmpty(){
         return true;
     }
-    public String getTranslation(String s){
-        return "Hello";
+
+    public void addTranslation(String T1,String T2) {
+        translations = new HashMap();
+        translations.put(T1,T2);
     }
 
-    public String addTranslation(String T1,String T2) {
-        return "Bonjour";
+    public String getTranslation(String c) {
+        return this.translations.get(c);
     }
-
 }
