@@ -34,14 +34,19 @@ public class DictionaryTest {
     @Test
     public void testOneTranslation() {
         dict.addTranslation("contre", List.of("against"));
-        assertThat(dict.getTranslation("contre"), equalTo(List.of("against")));
+        assertThat(dict.getMultipleTranslations("contre"), equalTo(List.of("against")));
     }
 
     @Test
     public void testManyTranslation() {
         dict.addTranslation("contre", List.of("Aissatou","Aniesse","Emma"));
-        assertThat(dict.getTranslation("contre"), containsInAnyOrder("Emma","Aissatou","Aniesse"));
+        assertThat(dict.getMultipleTranslations("contre"), containsInAnyOrder("Emma","Aissatou","Aniesse"));
     }
 
+    @Test
+    public void testTraductionInverse(){
+        dict.addTranslation("contre", List.of("Aissatou","Aniesse","Emma"));
+        assertThat(dict.getKey(List.of("Aissatou","Aniesse","Emma")), equalTo("contre"));
+    }
 
 }

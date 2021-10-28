@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="DictionaryTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-10-28T13:09:37" hostname="LAPTOP-BDURKR70" time="0.05">
+<testsuite name="DictionaryTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-10-28T13:51:02" hostname="LAPTOP-BDURKR70" time="0.054">
   <properties/>
-  <testcase name="IsEmpty()" classname="DictionaryTest" time="0.026"/>
-  <testcase name="testManyTranslation()" classname="DictionaryTest" time="0.019"/>
-  <testcase name="testOneTranslation()" classname="DictionaryTest" time="0.001"/>
-  <testcase name="testDictionaryName()" classname="DictionaryTest" time="0.001"/>
+  <testcase name="IsEmpty()" classname="DictionaryTest" time="0.036"/>
+  <testcase name="testManyTranslation()" classname="DictionaryTest" time="0.014"/>
+  <testcase name="testOneTranslation()" classname="DictionaryTest" time="0.0"/>
+  <testcase name="testDictionaryName()" classname="DictionaryTest" time="0.0"/>
+  <testcase name="testTraductionInverse()" classname="DictionaryTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -15,15 +15,26 @@ public class Dictionary {
         return this.name;
     }
 
-    public boolean IsEmpty(){
+    public boolean IsEmpty() {
         return translations.isEmpty();
     }
 
-    public void addTranslation(String T1,List<String> e) {
-        translations.put(T1,e);
+    public void addTranslation(String T1, List<String> e) {
+        translations.put(T1, e);
     }
 
-    public List<String> getTranslation(String c) {
+    public List<String> getMultipleTranslations(String c) {
         return this.translations.get(c);
+    }
+
+    public String getKey(List<String> g) {
+
+        for (Map.Entry<String, List<String>> elem : this.translations.entrySet()) {
+            if (Objects.equals(g, elem.getValue())) {
+                return elem.getKey().toString();
+
+            }
+        }
+        return null;
     }
 }
