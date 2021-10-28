@@ -4,10 +4,11 @@ public class Dictionary {
 
     private String name;
 
-    private Map<String, String> translations;
+    private Map<String, List<String>> translations;
 
     public Dictionary(String n) {
         this.name = n;
+        translations = new HashMap();
     }
 
     public String getName() {
@@ -15,15 +16,14 @@ public class Dictionary {
     }
 
     public boolean IsEmpty(){
-        return true;
+        return translations.isEmpty();
     }
 
-    public void addTranslation(String T1,String T2) {
-        translations = new HashMap();
-        translations.put(T1,T2);
+    public void addTranslation(String T1,List<String> e) {
+        translations.put(T1,e);
     }
 
-    public String getTranslation(String c) {
+    public List<String> getTranslation(String c) {
         return this.translations.get(c);
     }
 }

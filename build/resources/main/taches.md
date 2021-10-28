@@ -2,4 +2,5 @@
 2- Création de la class Dictionary<br>
 3- Ajout methode getName() pour faire passer les tests<br>
 4- Problème du traitement du dictionnaire vide à revoir <br>
-5- Creation testOneTranslation
+5- Creation testOneTranslation<br>
+6- implemention getTranslation et addTranslation
