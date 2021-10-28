@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class DictionaryTest {
     Dictionary dict;
@@ -18,5 +19,11 @@ public class DictionaryTest {
     {
         this.dict =new Dictionary("Example");
     }
+
+    @Test
+    public void IsEmpty(){
+        assertTrue(dict.IsEmpty());
+    }
+
 
 }

@@ -9,4 +9,8 @@ public class Dictionary {
         return this.name;
     }
 
+    public boolean IsEmpty(){
+        return true;
+    }
+
 }
