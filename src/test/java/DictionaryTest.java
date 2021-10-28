@@ -1,14 +1,22 @@
-import org.junit.Assert;
-import org.junit.Test;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.equalTo;
 
 public class DictionaryTest {
     Dictionary dict;
+
     @Test
     public void testDictionaryName() {
-        Assert.assertEquals(dict.getName(), "Example");
+        assertThat(dict.getName(), equalTo("Example"));
     }
-    @Test
-    public String getName(){
-        return "example";
+
+    @BeforeEach
+    void setUpClass()
+    {
+        this.dict =new Dictionary("Example");
     }
+
 }

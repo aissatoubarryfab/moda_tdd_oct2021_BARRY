@@ -1,12 +1,12 @@
 public class Dictionary {
 
-    String name;
-    public Dictionary(String name) {
-        this.name = name;
+    private String name;
+    public Dictionary(String n) {
+        this.name = n;
     }
 
     public String getName() {
-        return name;
+        return this.name;
     }
 
 }
