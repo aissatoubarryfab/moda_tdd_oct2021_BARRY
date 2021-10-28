@@ -28,7 +28,7 @@ public class DictionaryTest {
     @Test
     public void testOneTranslation() {
         dict.addTranslation("contre", "against");
-        assertThat(dict.getTranslation("contre"), equalTo("Bonjour"));
+        assertThat(dict.getTranslation("contre"), equalTo("hello"));
     }
 
 
