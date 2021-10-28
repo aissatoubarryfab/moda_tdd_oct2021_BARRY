@@ -7,4 +7,8 @@ public class DictionaryTest {
     public void testDictionaryName() {
         Assert.assertEquals(dict.getName(), "Example");
     }
+    @Test
+    public String getName(){
+        return "example";
+    }
 }
