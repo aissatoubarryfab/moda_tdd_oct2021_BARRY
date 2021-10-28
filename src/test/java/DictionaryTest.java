@@ -25,5 +25,11 @@ public class DictionaryTest {
         assertTrue(dict.IsEmpty());
     }
 
+    @Test
+    public void testOneTranslation() {
+        dict.addTranslation("contre", "against");
+        assertThat(dict.getTranslation("contre"), equalTo("against"));
+    }
+
 
 }

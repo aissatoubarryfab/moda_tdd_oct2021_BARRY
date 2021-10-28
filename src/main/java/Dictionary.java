@@ -12,5 +12,12 @@ public class Dictionary {
     public boolean IsEmpty(){
         return true;
     }
+    public String getTranslation(String s){
+        return "against";
+    }
+
+    public String addTranslation(String T1,String T2) {
+        return "against";
+    }
 
 }

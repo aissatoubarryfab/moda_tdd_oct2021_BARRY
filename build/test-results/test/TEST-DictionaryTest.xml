@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="DictionaryTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-10-28T10:58:39" hostname="LAPTOP-BDURKR70" time="0.037">
+<testsuite name="DictionaryTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-10-28T11:34:03" hostname="LAPTOP-BDURKR70" time="0.043">
   <properties/>
-  <testcase name="IsEmpty()" classname="DictionaryTest" time="0.029"/>
-  <testcase name="testDictionaryName()" classname="DictionaryTest" time="0.007"/>
+  <testcase name="IsEmpty()" classname="DictionaryTest" time="0.03"/>
+  <testcase name="testOneTranslation()" classname="DictionaryTest" time="0.01"/>
+  <testcase name="testDictionaryName()" classname="DictionaryTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

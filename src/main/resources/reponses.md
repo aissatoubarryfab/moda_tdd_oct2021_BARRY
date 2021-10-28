@@ -6,3 +6,7 @@ L'objectif est de s'assurer que le code répond aux besoins malgré les mises à
 - <b>Mockito</b> est un framework open source permettant de verifier comportement du système testé (System Under Test).
 5)
 - Pour l'instant les duplications existants : le return d'un chaine de caratere au lieu de stocker le return dans une variable.
+
+-Triangulaire
+2) Oui c'est possibe l'ajout d'une seule de ces deux méthodes en remplissant en mettant un false dans la methode isEmpty.
+3) 
